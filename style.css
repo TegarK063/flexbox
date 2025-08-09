@@ -1,0 +1,14 @@
+.container {
+  width: 600px;
+  border: 5px solid #000;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container div {
+  width: 150px;
+  height: 150px;
+  background-color: aqua;
+  border: #000 1px solid;
+}

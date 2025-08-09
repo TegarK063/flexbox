@@ -7,7 +7,7 @@
   /* flex-direction: row; */
   /* flex-wrap: wrap; */
   /* justify-content: space-evenly; */
-  /* align-items: center; */
+  align-items: center;
 }
 .container div {
 flex: 1;
@@ -16,4 +16,5 @@ flex: 1;
 }
 .container div.dua {
   flex: 2;
+  align-self: flex-start;
 }

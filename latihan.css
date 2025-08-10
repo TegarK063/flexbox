@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+.container {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+.kolom-utama {
+  flex: 3;
+  order: 2;
+}
+.kolom-samping {
+  flex: 1;
+  order: 1;
+}
+.kolom-samping2 {
+  flex: 1;
+  order: 3;
+}
